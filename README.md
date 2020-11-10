@@ -1,2 +1,2 @@
 # todo-project
-Project manager- organize task by dates, status and team members.
+Project manager- organize tasks by dates, status and team members.
