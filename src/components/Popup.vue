@@ -57,7 +57,7 @@
 
 <script>
 import format from 'date-fns/format'
-import db from '@/fb'
+/*import db from '@/fb'*/
 export default {
     data(){
         return{
@@ -71,13 +71,7 @@ export default {
       submit(){
         if(this.$refs.form.validate()){
           console.log(this.title, this.info, this.date, this.importan)
-            const task = {
-            title : this.title, 
-            info: this.info,
-            date : this.date,
-            importance : this.importan
-          }
-          db.collection('tasks').add(task).then(( ) =>{ console.log('added to db') })
+            
         }
       }
     },
